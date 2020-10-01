@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "fmt": "prettier --write 'src/**/*.ts'",
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc --noEmit"
   },
   "dependencies": {
     "@types/jest": "^26.0.14",
